@@ -1,0 +1,38 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:54d28019-8959-5313-ad9b-1cccde1cf86a",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-09T09:06:26Z",
+    "component": {
+      "type": "application",
+      "name": "PLEX_MEDIA",
+      "version": "d9685b274934",
+      "bom-ref": "pkg:generic/anticloud/PLEX_MEDIA@d9685b274934",
+      "purl": "pkg:generic/anticloud/PLEX_MEDIA@d9685b274934",
+      "licenses": [
+        {
+          "license": {
+            "id": "NOASSERTION"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "d9685b274934855a"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": []
+}
